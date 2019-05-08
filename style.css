@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css?family=Abril+Fatface|Amatic+SC');
+@import url('https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab');
+@import url('https://fonts.googleapis.com/css?family=Cinzel');
+
+body{
+    line-height: 70%;
+    background-color: whitesmoke;
+}
+
+h1 {
+    color: #103c42;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700; 
+}
+
+h2{
+    color: #02576c;
+    font-size: 25px;
+    font-weight: 800;
+    font-family: 'Cinzel', serif;
+}
+
+h1, h2 {
+    line-height: 80%;
+}
+
+p{
+    color: #05a19c;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 150px;
+}
+
+.list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 50px;
+}  
+
+.list-inline {
+    list-style: none;
+    padding-left: 0px;
+}
+
+
+.list-inline a {
+    color: #0537be;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.card-white {
+    background: white;
+    padding: 30px;
+    border: 1px solid lightgrey;
+    margin: 10px;
+}
+
+.btn {
+    background: #103c42;
+    color: antiquewhite;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.btn:hover {
+    background: #84a98c;
+}
